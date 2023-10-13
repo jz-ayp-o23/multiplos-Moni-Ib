@@ -11,11 +11,9 @@ numero_2 = float(input("Ingrese otro número: "))
 
 # Proceso
 if numero_1 % numero_2 == CONSTANTE:
-    multiplo = "El número {numero_1} es múltiplo del {numero_2}"
+    print(f"El número {numero_1} es múltiplo del {numero_2}")
 elif numero_2 % numero_1 == CONSTANTE:
-    multiplo = "El número {numero_2} es múltiplo del {numero_1}"
+    print(f"El número {numero_2} es múltiplo del {numero_1}")
 else:
-    multiplo = "Ninguno de los números es múltiplo del otro"
+    print("Ninguno de los números es múltiplo del otro")
 
-# Salidas
-print(multiplo)
