@@ -6,8 +6,8 @@ Diseña un programa para que, dados dos números enteros, determine si uno es m�
 CONSTANTE = 0
 
 # Entradas
-numero_1 = float(input("Ingrese un número: "))
-numero_2 = float(input("Ingrese otro número: "))
+numero_1 = int(input("Ingrese un número: "))
+numero_2 = int(input("Ingrese otro número: "))
 
 # Proceso
 if numero_1 % numero_2 == CONSTANTE:
